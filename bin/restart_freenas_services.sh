@@ -1,0 +1,1 @@
+../../scripts/restart_freenas_services.sh
