@@ -114,3 +114,5 @@ if [[ -f ~/.dircolors ]]; then
 elif [[ -f ~/.dir_colors ]]; then
     eval "$(dircolors -b ~/.dir_colors)"
 fi
+
+cd ~/dotfiles ; git pull
