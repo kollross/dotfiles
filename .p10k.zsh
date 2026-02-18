@@ -33,7 +33,7 @@
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
     os_icon                 # os identifier
-    dir                     # current directory
+    full_dir                     # current directory
     vcs                     # git status
     # =========================[ Line #2 ]=========================
     newline                 # \n
@@ -1845,3 +1845,8 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 (( ${#p10k_config_opts} )) && setopt ${p10k_config_opts[@]}
 'builtin' 'unset' 'p10k_config_opts'
+
+
+function prompt_full_dir() {
+  p10k segment -b blue -f white -t '%d'
+}
