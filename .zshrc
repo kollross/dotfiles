@@ -115,4 +115,8 @@ elif [[ -f ~/.dir_colors ]]; then
     eval "$(dircolors -b ~/.dir_colors)"
 fi
 
-cd ~/dotfiles ; git pull ; cd ~ ;
+if [ "$UID" -eq 0 ]; then
+	: # do nothing (colon is a no-op)
+else
+	cd ~/dotfiles ; git pull ; cd ~ ;
+fi
