@@ -1,0 +1,7 @@
+[Data Source]
+DisplayName=NCSA
+Enabled=true
+Parent=8282f42954b7e8a205f723a920738d3ebf2eed1c
+
+[Mail Transport]
+BackendName=ews

@@ -1,0 +1,5 @@
+ 
+New instance of bashtop version: 0.9.25 Pid: 9905
+PSUTIL ERROR! Command: get_cmd_out('sensors 2>/dev/null')
+Command 'sensors 2>/dev/null' returned non-zero exit status 1.
+02:42:47 PM ERROR: On line 2064 

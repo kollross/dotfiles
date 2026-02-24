@@ -1,0 +1,41 @@
+[Data Source]
+DisplayName=NCSA
+Enabled=true
+Parent=8282f42954b7e8a205f723a920738d3ebf2eed1c
+
+[Mail Submission]
+SentFolder=folder://51838d5be5cd5278090ea162455f9a3e695aa5e7/Sent%20Items
+TransportUid=2b610476a79ca575ab83c2a96d92cf7ead947dea
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://51838d5be5cd5278090ea162455f9a3e695aa5e7/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=kollross@illinois.edu
+Aliases=
+Name=Matt Kollross
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Exchange Web Services Folder]
+ChangeKey=
+Id=
+Foreign=false
+ForeignSubfolders=false
+ForeignMail=
+FreebusyWeeksBefore=1
+FreebusyWeeksAfter=5
+Public=false
+UsePrimaryAddress=false
+FetchGalPhotos=true
