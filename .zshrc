@@ -11,7 +11,7 @@ source ~/.p10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-source ~/.zsh/aliases_linux.sh
+source ~/.zsh/aliases_linux.zsh
 source ~/.zsh/aliases_macos.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/path.zsh
