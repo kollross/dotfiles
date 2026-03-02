@@ -20,7 +20,11 @@ fi
 
 source ~/.zsh/path.zsh
 
-cd ~/dotfiles ; git pull ; cd ~
+
+
+if [[ $EUID -ne 0 ]]; then
+    cd ~/dotfiles ; git pull ; cd ~
+fi
 
 
 ### Plugins ###
