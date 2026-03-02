@@ -1,0 +1,47 @@
+#!/bin/bash
+
+firefox () {
+	/usr/bin/killall -SIGSTOP firefox
+}
+
+vlc () {
+        /usr/bin/killall -SIGSTOP VLC
+}
+
+safari () {
+  	/usr/bin/killall -SIGSTOP Safari
+}
+
+chrome () {
+  	/usr/bin/killall -SIGSTOP Safari
+}
+
+
+### main logic ###
+case "$1" in
+  firefox)
+        firefox
+	;;
+  vlc)
+	vlc
+	;;
+  safari)
+  	safari
+	;;
+  chrome)
+   	chrome	
+	;;
+
+  status)
+	status FOO
+	;;
+	firefox|vlc)
+stop
+start
+;;
+*)
+echo $"Usage: $0 {firefox|vlc|safari}"
+exit 1
+esac
+
+exit 0
