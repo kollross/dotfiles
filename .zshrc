@@ -11,8 +11,13 @@ source ~/.p10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 
-source ~/.zsh/aliases_linux.zsh
-source ~/.zsh/aliases_macos.zsh
+# Check if uname -s output matches "Linux"
+if [[ "$(uname -s)" == "Darwin" ]]; then
+    source ~/.zsh/aliases_macos.zsh
+else
+    source ~/.zsh/aliases_linux.zsh
+fi
+
 source ~/.zsh/aliases.zsh
 source ~/.zsh/path.zsh
 
