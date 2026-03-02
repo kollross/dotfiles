@@ -21,3 +21,5 @@ fi
 source ~/.zsh/path.zsh
 
 cd ~/dotfiles ; git pull ; cd ~
+
+source .zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
