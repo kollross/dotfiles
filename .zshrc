@@ -18,7 +18,6 @@ else
     source ~/.zsh/aliases_linux.zsh
 fi
 
-source ~/.zsh/aliases.zsh
 source ~/.zsh/path.zsh
 
 cd ~/dotfiles ; git pull ; cd ~
