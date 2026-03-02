@@ -16,8 +16,8 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-#set $menu wmenu-run
-set $menu nwg-drawer
+set $menu wmenu-run
+#set $menu nwg-drawer
 
 ### Output configuration
 #
