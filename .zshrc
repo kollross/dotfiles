@@ -8,7 +8,7 @@ fi
 source ~/.p10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f ~/.p10k/p10k.zsh ]] || source ~/.p10k/p10k.zsh
 
 
 # Check if uname -s output matches "Linux"
