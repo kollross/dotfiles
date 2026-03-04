@@ -1,8 +1,3 @@
-if [[ -f ~/.dircolors ]]; then
-  eval "$(dircolors -b ~/.dircolors)"
-fi
-
-
 alias ls="gls --color=auto"
 alias ll="gls --color=auto -alG"
 alias r='tmux attach -d'

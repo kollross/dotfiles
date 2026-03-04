@@ -27,6 +27,12 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 
+#### LS_COLORS ####
+if [[ -f ~/.dircolors ]]; then
+  eval "$(dircolors -b ~/.dircolors)"
+fi
+
+
 ### Plugins ###
 
 source .zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
