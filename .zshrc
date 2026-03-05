@@ -28,9 +28,9 @@ fi
 
 
 #### LS_COLORS ####
-if [[ -f ~/.dircolors ]]; then
-  eval "$(dircolors -b ~/.dircolors)"
-fi
+#if [[ -f ~/.dircolors ]]; then
+#  eval "$(dircolors -b ~/.dircolors)"
+#fi
 
 ### Plugins ###
 

@@ -1,3 +1,7 @@
+export EZA_CONFIG_DIR=~/.config/eza/theme.yml
+export XDG_CONFIG_HOME=~/.config/eza/theme.yml
+
+
 alias ls="eza"
 alias ll="eza -al"
 alias lr='eza -al --sort=created'
