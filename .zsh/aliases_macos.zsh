@@ -1,8 +1,3 @@
-EZA_CONFIG_DIR=/Users/kollross/.config/eza
-XDG_CONFIG_HOME=/Users/kollross/.config
-
-
-
 alias ls="eza"
 alias ll="eza -al"
 alias lr='eza -al --sort=created'
