@@ -1,5 +1,5 @@
-#theme = Blue Matrix
-theme = Box
+theme = Blue Matrix
+#theme = Box
 term = "xterm-256color"
 font-size = "11"
 background-opacity = 0.95
