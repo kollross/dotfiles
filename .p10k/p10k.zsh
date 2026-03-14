@@ -1667,7 +1667,7 @@
 
   ###############################[ public_ip: public IP address ]###############################
   # Public IP color.
-  typeset -g POWERLEVEL9K_PUBLIC_IP_FOREGROUND=7
+  typeset -g POWERLEVEL9K_PUBLIC_IP_FOREGROUND=15
   typeset -g POWERLEVEL9K_PUBLIC_IP_BACKGROUND=0
   # Custom icon.
   # typeset -g POWERLEVEL9K_PUBLIC_IP_VISUAL_IDENTIFIER_EXPANSION='⭐'
@@ -1849,5 +1849,5 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 
 function prompt_full_dir() {
-  p10k segment -b black -f white -t '%d'
+  p10k segment -b black -f 015 -t '%d'
 }
