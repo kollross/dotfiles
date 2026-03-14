@@ -1849,5 +1849,5 @@ typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
 
 function prompt_full_dir() {
-  p10k segment -b black -f 015 -t '%d'
+  p10k segment -b 000 -f 015 -t '%d'
 }
