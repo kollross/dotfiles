@@ -2,7 +2,7 @@ term = "xterm-256color"
 font-size = "10"
 font-family = "MesloLGS NF"
 font-thicken = true
-background-opacity = 0.90
+background-opacity = 0.75
 bold-is-bright = true
 
 
@@ -31,12 +31,11 @@ bold-is-bright = true
 #theme =  Horizon 
 #theme =  IC Green PPL 
 #theme =  iTerm2 Pastel Dark Background
-theme =  Mathias 
-#theme =  Modus Vivendi 
+#theme =  Mathias 
+theme =  Modus Vivendi 
 #theme =  Oxocarbon 
 #theme =  Seti 
 #theme =  Tinacious Design Dark 
 #theme =  Under The Sea 
 #theme =  Violite 
 #theme =  Wombat 
-#theme =  Xcode Dark hc 
