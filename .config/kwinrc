@@ -16,7 +16,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=1
+Scale=0.8
 
 [org.kde.kdecoration2]
 NoPlugin=false
