@@ -53,6 +53,16 @@ PLAYLISTS = {
         "dir": "/Users/kollross/.Shared/bin/youtube/s2a/",
         "help": "Steps 2 Adventure",
     },
+    "al": {
+        "url": "https://youtube.com/playlist?list=PLGsktWFpRqNqVlQBe6vptDQZ-fJ8T1278&si=emYPR482J7M_dE5o",
+        "dir": "/Users/kollross/.Shared/bin/youtube/al/",
+        "help": "Annalee",
+    },
+    "asia": {
+        "url": "https://youtube.com/playlist?list=PLGsktWFpRqNoNCyC5svStofA8iVtTaSAE&si=X4_AOitTIQcueguE",
+        "dir": "/Users/kollross/.Shared/bin/youtube/asia/",
+        "help": "Annalee",
+    },
 }
 
 def download_playlist(target_dir, playlist_url, dry_run=False):
