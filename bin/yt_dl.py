@@ -5,52 +5,52 @@ import subprocess
 import argparse
 
 # Constants
-YT_DL = "/usr/local/bin/yt-dlp"
+YT_DL = "yt-dlp"
 
 PLAYLISTS = {
     "mon": {
         "url": "https://www.youtube.com/playlist?list=PLGsktWFpRqNo62e29pI36Yc9ts5QVX0mC",
-        "dir": "/Users/kollross/.Shared/bin/youtube/mondragon/full_vids/",
+        "dir": "~/.Shared/bin/youtube/mondragon/full_vids/",
         "help": "Download Mondragon playlist",
     },
     "dl": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNp291MnlrfbmWd4P7CauHYH&si=ijQjYp-dqSNnGsBw",
-        "dir": "/Users/kollross/.Shared/bin/youtube/dl/",
+        "dir": "~/.Shared/bin/youtube/dl/",
         "help": "Download DL playlist",
     },
     "nc": {
         "url": "https://www.youtube.com/playlist?list=PLAuRR8NlEBO0D84dYzYQXWWHs1vxNg2W3",
-        "dir": "/Users/kollross/.Shared/bin/youtube/mondragon/non_client/",
+        "dir": "~/.Shared/bin/youtube/mondragon/non_client/",
         "help": "Mondragon Non Client",
     },
     "ls": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNrh6TNuxqJ8CTYjfUrRRXQp&si=r-gXW0hsAGdo20Qz",
-        "dir": "/Users/kollross/.Shared/bin/youtube/laura_sarasua/",
+        "dir": "~/.Shared/bin/youtube/laura_sarasua/",
         "help": "Laura Sarasura",
     },
     "bb": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNrh6TNuxqJ8CTYjfUrRRXQp&si=r-gXW0hsAGdo20Qz",
-        "dir": "/Users/kollross/.Shared/bin/youtube/backpacking_bannanas/",
+        "dir": "~/.Shared/bin/youtube/backpacking_bannanas/",
         "help": "Backpacking Bananas",
     },
     "kh": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNrvQxg0conCwuAKPrE3BS7u&si=TFqcxXq8RIbTLjsf",
-        "dir": "/Users/kollross/.Shared/bin/youtube/kelly_hays/",
+        "dir": "~/.Shared/bin/youtube/kelly_hays/",
         "help": "Kelly Hays",
     },
     "nm": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNofPKiita3VSTfIG8VXXuCd&si=9w1p0X3qHC6pZP1I",
-        "dir": "/Users/kollross/.Shared/bin/youtube/nomad/",
+        "dir": "~/.Shared/bin/youtube/nomad/",
         "help": "Nomad",
     },
     "head": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNpAYDraXULreEbJx2ypfk7t&si=4RJolyhsnG0IgR99",
-        "dir": "/Users/kollross/.Shared/bin/youtube/head/",
+        "dir": "~/.Shared/bin/youtube/head/",
         "help": "Mad Head Massage",
     },
     "s2a": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNopP8m7sX4R-o7piiSnNSaM&si=q0eQs3o6-W2aPosW",
-        "dir": "/Users/kollross/.Shared/bin/youtube/s2a/",
+        "dir": "~/.Shared/bin/youtube/s2a/",
         "help": "Steps 2 Adventure",
     },
     "al": {
