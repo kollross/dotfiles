@@ -61,7 +61,12 @@ PLAYLISTS = {
     "asia": {
         "url": "https://youtube.com/playlist?list=PLGsktWFpRqNoNCyC5svStofA8iVtTaSAE&si=X4_AOitTIQcueguE",
         "dir": "/Users/kollross/.Shared/bin/youtube/asia/",
-        "help": "Annalee",
+        "help": "asia",
+    },
+    "bee": {
+        "url": "https://youtube.com/playlist?list=PLGsktWFpRqNrw_6hXC7bCIT1cz-HVsMsA&si=Mnmtoxjsi7fShrSj"
+        "dir": "/Users/kollross/.Shared/bin/youtube/bee/",
+        "help": "Bee",
     },
 }
 
