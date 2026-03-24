@@ -1,3 +1,4 @@
+alias ls='ls --color'
 alias ll='ls -al'
 alias lr='ls -altr'
 alias r='tmux attach -d'
