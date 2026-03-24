@@ -14,9 +14,18 @@ source ~/.p10k/powerlevel10k.zsh-theme
 # Check if uname -s output matches "Linux"
 if [[ "$(uname -s)" == "Darwin" ]]; then
     source ~/.zsh/aliases_macos.zsh
-else
+fi
+
+if [[ "$(uname -s)" == "Linux" ]]; then
     source ~/.zsh/aliases_linux.zsh
 fi
+
+if [[ "$(uname -n)" == "truenas" ]]; then
+    source ~/.zsh/aliases_truenas.zsh
+fi
+
+
+# Import $PATH
 
 source ~/.zsh/path.zsh
 
