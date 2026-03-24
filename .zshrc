@@ -30,11 +30,10 @@ fi
 source ~/.zsh/path.zsh
 
 
-
-if [[ $EUID -ne 0 ]]; then
+### Do a git pull on certain machines
+if [[ $EUID -ne 0 && $(hostname) =~ ^(shaolin|merlin|percival|NCSA-00143)$ ]]; then
     cd ~/dotfiles ; git pull ; cd ~
 fi
-
 
 #### LS_COLORS ####
 if [[ -f ~/.dircolors ]]; then
