@@ -31,7 +31,6 @@
 .config/enchant
 .config/environment.d
 .config/evolution
-.config/eza-themes
 .config/falkon
 .config/fish
 .config/flashfocus
@@ -39,7 +38,6 @@
 .config/foot
 .config/g
 .config/gedit
-.config/ghostty
 .config/google-chrome
 .config/google-chrome-beta
 .config/google-chrome-unstable
@@ -51,7 +49,6 @@
 .config/hypr
 .config/i3
 .config/ibus
-.config/iterm2
 .config/kactivitymanagerd-statsrc
 .config/kactivitymanagerdrc
 .config/kanshi
@@ -78,7 +75,6 @@
 .config/mimeapps.list
 .config/monitors.xml
 .config/neofetch
-.config/nvim
 .config/nwg-drawer
 .config/nwg-launchers
 .config/nwg-wrapper
@@ -114,4 +110,3 @@
 .config/xsettingsd
 .config/youtube-music-flags.conf
 .config/zed
-.config/zsh
