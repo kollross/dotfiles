@@ -2,8 +2,10 @@ term = "xterm-256color"
 font-size = "10"
 font-family = "MesloLGS NF"
 font-thicken = true
-background-opacity = 0.75
+background-opacity = 0.85
 bold-is-bright = true
+unfocused-split-opacity = 0.50
+
 
 
 
