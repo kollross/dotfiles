@@ -50,6 +50,7 @@
 .config/hypr
 .config/i3
 .config/ibus
+.config/iterm2
 .config/kactivitymanagerd-statsrc
 .config/kactivitymanagerdrc
 .config/kanshi
