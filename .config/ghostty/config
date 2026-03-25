@@ -4,7 +4,8 @@ font-family = "MesloLGS NF"
 font-thicken = true
 background-opacity = 0.85
 bold-is-bright = true
-unfocused-split-opacity = 0.50
+unfocused-split-opacity = 0.70
+#unfocused-split-fill=#1e2030
 
 
 
