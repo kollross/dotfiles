@@ -31,7 +31,8 @@ source ~/.zsh/path.zsh
 
 
 ### Do a git pull on certain machines
-if [[ $EUID -ne 0 && $(hostname) =~ ^(shaolin|merlin|percival|NCSA-00143)$ ]]; then
+#if [[ $EUID -ne 0 && $(hostname) =~ ^(shaolin|merlin|percival|NCSA-00143)$ ]]; then
+if [[ $EUID -ne 0 ]]; then
     cd ~/dotfiles ; git pull ; cd ~
 fi
 
