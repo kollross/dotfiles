@@ -1,3 +1,0 @@
-#!/usr/local/bin/zsh
-
-sudo /usr/local/bin/zfs-auto-snapshot -d frequent  4

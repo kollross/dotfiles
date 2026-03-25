@@ -1,2 +1,0 @@
-#!/bin/sh
-curl -s icanhazip.com
