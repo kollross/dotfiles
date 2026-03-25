@@ -1,1 +1,0 @@
-exec /usr/bin/compton --config /home/kollross/.compton.conf/config
