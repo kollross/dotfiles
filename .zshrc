@@ -8,7 +8,17 @@ fi
 source ~/.p10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k/p10k.zsh ]] || source ~/.p10k/p10k.zsh
+#[[ ! -f ~/.p10k/p10k.zsh ]] || source ~/.p10k/p10k.zsh
+# 1. Define your home-base hostnames in an array
+home_hosts=(percival merlin shaolin arch)
+
+# 2. Check if the current $HOST is in that array
+if [[ ${home_hosts[(ie)$HOST]} -le ${#home_hosts} ]]; then
+    [[ ! -f ~/.p10k/home.zsh ]] || source ~/.p10k/home.zsh
+else
+    [[ ! -f ~/.p10k/work.zsh ]] || source ~/.p10k/work.zsh
+fi
+
 
 
 # Check if uname -s output matches "Linux"
