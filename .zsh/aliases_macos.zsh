@@ -1,6 +1,6 @@
 alias ls="eza"
 alias ll="eza -al"
-alias lr='eza -al --sort=created'
+alias lr='eza -al --sort=modified'
 alias r='tmux attach -d'
 alias cp='cp -i'
 alias mv='mv -i'
