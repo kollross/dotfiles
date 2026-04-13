@@ -1,0 +1,349 @@
+mouse = true
+editor = "default"
+auto_focus = true
+show_attachment_links = true
+autocomplete_limit = 10
+messages_limit = 50
+download_dir = ""
+ascii_icons = false
+
+[oauth]
+client_id = "10586769954784.10543233988087"
+client_secret = ""
+app_token = ""
+proxy_url = "https://slacko-oauth.m96-chan.dev"
+
+[markdown]
+enabled = true
+syntax_theme = "monokai"
+
+[timestamps]
+enabled = true
+format = "3:04PM"
+
+[date_separator]
+enabled = true
+character = "─"
+
+[notifications]
+enabled = true
+
+[notifications.sound]
+enabled = false
+
+[typing_indicator]
+enabled = true
+send = true
+receive = true
+
+[threads]
+show_inline = false
+
+[presence]
+enabled = true
+
+[keybinds]
+focus_channels = "Rune[1]"
+focus_messages = "Rune[2]"
+focus_input = "Rune[3]"
+focus_previous = "Ctrl+W"
+focus_next = "Ctrl+L"
+toggle_thread = "Rune[t]"
+toggle_channels = "Ctrl+B"
+channel_picker = "Ctrl+K"
+search = "Ctrl+S"
+quit = "Ctrl+C"
+help = "Rune[?]"
+switch_team = "Ctrl+T"
+command_mode = "Rune[:]"
+mark_read = "Rune[m]"
+mark_all_read = "Rune[M]"
+pinned_messages = "Rune[P]"
+starred_items = "Rune[S]"
+channel_info = "Ctrl+O"
+
+[keybinds.channels_tree]
+up = "Rune[k]"
+down = "Rune[j]"
+top = "Rune[g]"
+bottom = "Rune[G]"
+select_current = "Enter"
+collapse = "Rune[-]"
+move_to_parent = "Rune[p]"
+copy_channel_id = "Rune[i]"
+
+[keybinds.messages_list]
+select_current = "Enter"
+scroll_up = "Rune[k]"
+scroll_down = "Rune[j]"
+reply = "Rune[r]"
+edit = "Rune[e]"
+delete = "Rune[d]"
+reactions = "Rune[+]"
+remove_reaction = "Rune[-]"
+thread = "Rune[t]"
+yank = "Rune[y]"
+copy_permalink = "Rune[u]"
+open_file = "Rune[o]"
+pin = "Rune[p]"
+star = "Rune[s]"
+user_profile = "Rune[U]"
+view_reactions = "Rune[R]"
+cancel = "Escape"
+
+[keybinds.message_input]
+send = "Enter"
+newline = "Shift+Enter"
+tab_complete = "Tab"
+open_editor = "Ctrl+E"
+open_file_picker = "Ctrl+F"
+paste = "Ctrl+V"
+cancel = "Escape"
+
+[keybinds.thread_view]
+up = "Rune[k]"
+down = "Rune[j]"
+reply = "Rune[r]"
+close = "Escape"
+
+[keybinds.channels_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.file_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.search_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.pins_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.bookmarks_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.starred_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+unstar = "Rune[x]"
+
+[keybinds.user_profile_panel]
+close = "Escape"
+open_dm = "Rune[d]"
+copy_id = "Rune[i]"
+
+[keybinds.channel_info_panel]
+close = "Escape"
+set_topic = "Rune[t]"
+set_purpose = "Rune[p]"
+leave = "Rune[l]"
+
+[keybinds.members_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.invite_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+select = "Enter"
+
+[keybinds.group_dm_picker]
+close = "Escape"
+up = "Ctrl+P"
+down = "Ctrl+N"
+add = "Enter"
+remove = "Ctrl+D"
+confirm = "Ctrl+Enter"
+
+[theme]
+preset = "default"
+
+[theme.border]
+[theme.border.focused]
+foreground = "green"
+
+[theme.border.normal]
+foreground = "gray"
+
+[theme.title]
+[theme.title.focused]
+foreground = "white"
+attributes = "bold"
+
+[theme.title.normal]
+foreground = "gray"
+
+[theme.channels_tree]
+[theme.channels_tree.channel]
+foreground = "white"
+
+[theme.channels_tree.selected]
+foreground = "green"
+attributes = "bold"
+
+[theme.channels_tree.unread]
+foreground = "white"
+attributes = "bold"
+
+[theme.channels_tree.muted]
+foreground = "gray"
+attributes = "dim"
+
+[theme.messages_list]
+[theme.messages_list.message]
+foreground = "white"
+
+[theme.messages_list.author]
+foreground = "green"
+attributes = "bold"
+
+[theme.messages_list.timestamp]
+foreground = "gray"
+
+[theme.messages_list.selected]
+foreground = "white"
+attributes = "reverse"
+
+[theme.messages_list.reply]
+foreground = "lightgreen"
+
+[theme.messages_list.system_message]
+foreground = "gray"
+attributes = "dim"
+
+[theme.messages_list.edited_indicator]
+foreground = "gray"
+attributes = "dim"
+
+[theme.messages_list.pin_indicator]
+foreground = "yellow"
+
+[theme.messages_list.file_attachment]
+foreground = "green"
+
+[theme.messages_list.attachment_title]
+foreground = "lightgreen"
+attributes = "bold"
+
+[theme.messages_list.attachment_text]
+foreground = "gray"
+
+[theme.messages_list.attachment_footer]
+foreground = "gray"
+attributes = "dim"
+
+[theme.messages_list.reaction_self]
+foreground = "yellow"
+
+[theme.messages_list.reaction_other]
+foreground = "gray"
+
+[theme.messages_list.date_separator]
+foreground = "gray"
+
+[theme.messages_list.new_msg_separator]
+foreground = "red"
+
+[theme.message_input]
+[theme.message_input.text]
+foreground = "white"
+
+[theme.message_input.placeholder]
+foreground = "gray"
+attributes = "dim"
+
+[theme.thread_view]
+[theme.thread_view.author]
+foreground = "green"
+attributes = "bold"
+
+[theme.thread_view.timestamp]
+foreground = "gray"
+
+[theme.thread_view.parent_label]
+foreground = "gray"
+
+[theme.thread_view.separator]
+foreground = "gray"
+
+[theme.thread_view.edited_indicator]
+foreground = "gray"
+attributes = "dim"
+
+[theme.thread_view.file_attachment]
+foreground = "green"
+
+[theme.thread_view.attachment_title]
+foreground = "lightgreen"
+attributes = "bold"
+
+[theme.thread_view.attachment_text]
+foreground = "gray"
+
+[theme.thread_view.attachment_footer]
+foreground = "gray"
+attributes = "dim"
+
+[theme.thread_view.reaction]
+foreground = "gray"
+
+[theme.markdown_style]
+[theme.markdown_style.user_mention]
+foreground = "yellow"
+attributes = "bold"
+
+[theme.markdown_style.channel_mention]
+foreground = "lightgreen"
+attributes = "bold"
+
+[theme.markdown_style.special_mention]
+foreground = "yellow"
+attributes = "bold|underline"
+
+[theme.markdown_style.link]
+foreground = "green"
+attributes = "underline"
+
+[theme.markdown_style.inline_code]
+foreground = "gray"
+
+[theme.markdown_style.code_fence]
+foreground = "gray"
+
+[theme.markdown_style.blockquote_mark]
+foreground = "gray"
+
+[theme.markdown_style.blockquote_text]
+attributes = "dim"
+
+[theme.modal]
+[theme.modal.input_background]
+
+[theme.modal.secondary_text]
+foreground = "gray"
+
+[theme.status_bar]
+[theme.status_bar.text]
+foreground = "white"
+
+[theme.status_bar.background]
+background = "darkgreen"
