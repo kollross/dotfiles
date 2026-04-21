@@ -53,7 +53,7 @@ fi
 
 ### Plugins ###
 
-source .zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #export TERM=xterm-256color
